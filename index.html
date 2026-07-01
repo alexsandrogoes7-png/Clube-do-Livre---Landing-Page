@@ -1,13 +1,88 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="index.css">
-  </head>
-  <body>
-        <h1 class="text-pink-light">Hello World</h1>
-        <h2>Hello World</h2>
-  </body>
+
+    <style type="text/tailwindcss">
+      @theme{
+        --font-raleway: 'Raleway', sans-serif;
+
+        --text-title-lg: 3rem;
+        --text-title-md: 2.5rem;
+        --text-title-sm: 2rem;
+        --text-title-xs: 1rem;
+
+        --text-subtitle: 2rem,2;
+
+        --text-body-lg: 1.25rem,1.4;
+        --text-body-md: 1rem,1.4;
+        --text-body-sm: 0.875rem,1.4;
+        --text-body-xs: 0.75rem,1.4;
+
+        --text-button: 0.875rem;
+
+        --text-link: 0.875rem;
+        --text-tag: 0.625rem;
+
+
+
+        --color-pink-light:#C59DD2;
+        --color-pink-base:#9547A5;
+        --color-pink-dark:#7D298A;
+        --color-pink-low:#3F0F41;
+
+        --color-blue-light:#73B6D2;
+        --color-blue-base:#358BB9;
+        --color-blue-mid:#2374A4;
+        --color-blue-dark:#144A72;
+        --color-blue-low:#08233C;
+
+        --color-shape-stroke:#002347;
+        --color-shape-hover:#001933;
+        --color-shape-base:#000F1F;
+        --color-shape-background:#00050A;
+
+        --color-title:#F8FBFB;
+        --color-body:#E2E7E9;
+        --color-label:#BAC6C9;
+      }
+    </style>
+
+</head>
+<body class="font-raleway m-0 p-0 box-border">
+
+
+    <header class="relative w-full h-screen bg-shape-background px-30 py-10"> 
+      <img class="absolute inset-0 object-cover z-0 " src="assets/hero-background.png" alt="background-hero"> 
+
+      <div class="relative flex justify-between items-center mb-20 ">
+        <img src="assets/icon/logo-horizontal.svg" alt="Logo">
+        <button class="bg-pink-dark px-5 py-3 rounded-lg text-button font-bold text-title">Assinar</button>
+      </div>
+
+      <h1 class="relative z-10 text-title-lg font-bold text-title text-center mb-2.5 ">Desperte a sua imaginação <br> e explore novos mundos</h1>
+      <p class="relative z-10 text-center text-body text-body-lg">Junte-se ao clube de assinatura Encantos Literários e <br> descubra maravilhas e aventuras a cada página </p>
+    </header> 
+
+    <main>
+      <section>
+          <h2 class="text-title-sm font-medium text-title bg-shape-background text-center py-80">Receba todo mês um  <span class="text-blue-light font-bold">livro surpresa</span> do seu tema favorito, acompanhado de <br> <span class="text-blue-light font-bold">brindes exclusivos</span>  que tornarão a sua experiência literária <span class="text-blue-light font-bold">encantadora</span></h2>
+      </section>
+    </main>
+
+</body>
 </html>

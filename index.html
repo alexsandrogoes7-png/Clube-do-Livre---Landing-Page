@@ -66,19 +66,29 @@
 <body class="font-raleway m-0 p-0 box-border">
 
     
-    <header class="relative w-full bg-shape-background px-30 py-10 bg-[url(/assets/Hero.png)] bg-cover bg-no-repeat h-auto "> 
+    <header class="relative w-full bg-shape-background md:px-30 md:py-10 md:bg-[url('/assets/Hero.png')] bg-[url('/assets/Hero_mobile.png')] md:bg-cover bg-no-repeat h-auto bg-auto px-5 py-5"> 
 
-      <div class="relative flex justify-between items-center mb-30">
-        <img src="assets/icon/logo-horizontal.svg" alt="Logo">
+      <div class="relative flex justify-between items-center md:mb-50 mb-8">
+        <div class="w-60 h-15 bg-no-repeat md:bg-[url('/assets/icon/logo-horizontal.svg')] bg-[url('/assets/icon/logo-symbol.svg')]"></div>
         <button class="bg-pink-dark px-5 py-3 rounded-lg text-button font-bold text-title">Assinar</button>
       </div>
 
-      <h1 class="relative z-10 text-title-lg font-bold text-title text-center mb-2.5 ">Desperte a sua imaginação <br> e explore novos mundos</h1>
-      <p class="relative z-10 text-center text-body text-body-lg">Junte-se ao clube de assinatura Encantos Literários e <br> descubra maravilhas e aventuras a cada página </p>
+      <h1 class="relative z-10 md:text-title-lg text-[28px] font-bold text-title text-center mb-2.5 ">Desperte a sua <br class="md:hidden"> imaginação <br class="hidden md:inline"> e explore novos mundos</h1>
+      <p class="relative z-10 text-center text-body md:text-body-lg text-[14px]">Junte-se ao clube de assinatura Encantos Literários e <br class="hidden md:inline"> descubra maravilhas e aventuras a cada página </p>
 
+      <div class="md:mt-150 md:py-20 pt-60 pb-40 flex items-center flex-col">
+        <img class="absolute md:w-20 md:h-20 w-10 h-10 not-md:translate-x-20 cursor-pointer md:hover:scale-112 -translate-y-10 md:-translate-y-20 transition-all duration-300 md:hover:rotate-15" src="assets/icon/Book.svg" alt="">
             
-      <h2 class="mt-120 relative text-title-sm font-medium text-title text-center py-80">Receba todo mês um  <span class="text-blue-light font-bold">livro surpresa</span> do seu tema favorito, acompanhado de <br> <span class="text-blue-light font-bold">brindes exclusivos</span>  que tornarão a sua experiência literária <span class="text-blue-light font-bold">encantadora</span></h2>
-      
+        <h2 class=" relative md:text-title-sm text-title-xs font-medium text-title text-center ">Receba todo mês um  <span class="text-blue-light font-bold">livro surpresa</span> do seu tema favorito, acompanhado de <br> <span class="text-blue-light font-bold">brindes exclusivos</span>  que tornarão a sua experiência literária <span class="text-blue-light font-bold">encantadora.</span></h2>
+
+        <div class="flex md:gap-[1000px] justify-between md:mt-2">
+          <img class="absolute w-10 h-10 md:w-20 md:h-20 not-md:-translate-y-6 -translate-x-44 not-md:-scale-x-100 not-md:-rotate-65 cursor-pointer md:hover:scale-112 md:-translate-x-140 md:hover:rotate-15 transition-all duration-300" src="assets/icon/Ouija.svg" alt="">
+        
+          <img class="absolute w-10 h-10 md:w-20 md:h-20 not-md:-scale-x-100 translate-x-32 not-md:-translate-y-4 md:translate-x-130 md:hover:scale-112 cursor-pointer transition-all duration-300 md:hover:rotate-15" src="assets/icon/Ball.svg" alt="">
+        </div> 
+
+      </div> 
+      <!--  -->
     </header> 
 
     <main>

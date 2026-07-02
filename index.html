@@ -66,33 +66,46 @@
 <body class="font-raleway m-0 p-0 box-border">
 
     
-    <header class="relative w-full bg-shape-background md:px-30 md:py-10 md:bg-[url('/assets/Hero.png')] bg-[url('/assets/Hero_mobile.png')] md:bg-cover bg-no-repeat h-auto bg-auto px-5 py-5"> 
+    <header class="relative w-full bg-shape-background md:px-30 md:py-10 md:bg-[url('/assets/Hero.png')] bg-[url('/assets/Hero_mobile.png')] md:bg-cover bg-no-repeat h-auto bg-auto px-5 -mb-10"> 
 
       <div class="relative flex justify-between items-center md:mb-50 mb-8">
         <div class="w-60 h-15 bg-no-repeat md:bg-[url('/assets/icon/logo-horizontal.svg')] bg-[url('/assets/icon/logo-symbol.svg')]"></div>
-        <button class="bg-pink-dark px-5 py-3 rounded-lg text-button font-bold text-title">Assinar</button>
+        <button class="bg-pink-dark px-5 py-3 rounded-lg text-button font-bold text-title cursor-pointer hover:bg-pink-base transition-all ">Assinar</button>
       </div>
 
       <h1 class="relative z-10 md:text-title-lg text-[28px] font-bold text-title text-center mb-2.5 ">Desperte a sua <br class="md:hidden"> imaginação <br class="hidden md:inline"> e explore novos mundos</h1>
       <p class="relative z-10 text-center text-body md:text-body-lg text-[14px]">Junte-se ao clube de assinatura Encantos Literários e <br class="hidden md:inline"> descubra maravilhas e aventuras a cada página </p>
 
-      <div class="md:mt-150 md:py-20 pt-60 pb-40 flex items-center flex-col">
-        <img class="absolute md:w-20 md:h-20 w-10 h-10 not-md:translate-x-20 cursor-pointer md:hover:scale-112 -translate-y-10 md:-translate-y-20 transition-all duration-300 md:hover:rotate-15" src="assets/icon/Book.svg" alt="">
+      <div class="md:mt-150 md:py-20 pt-60 md:pb-60 pb-20 flex items-center flex-col group">
+
+        <img class="absolute md:w-20 md:h-20 w-10 h-10 not-md:translate-x-20 cursor-pointer md:hover:scale-112 -translate-y-10 md:-translate-y-20 transition-all duration-300 md:hover:rotate-15 md:opacity-0 group-hover:opacity-100" src="assets/icon/Book.svg" alt="livre de feitiços">
             
-        <h2 class=" relative md:text-title-sm text-title-xs font-medium text-title text-center ">Receba todo mês um  <span class="text-blue-light font-bold">livro surpresa</span> do seu tema favorito, acompanhado de <br> <span class="text-blue-light font-bold">brindes exclusivos</span>  que tornarão a sua experiência literária <span class="text-blue-light font-bold">encantadora.</span></h2>
+        <h2 class=" relative md:text-title-sm text-title-xs font-medium text-title text-center">Receba todo mês um  <span class="text-blue-light font-bold">livro surpresa</span> do seu tema favorito, acompanhado de <br> <span class="text-blue-light font-bold">brindes exclusivos</span>  que tornarão a sua experiência literária <span class="text-blue-light font-bold">encantadora.</span></h2>
 
         <div class="flex md:gap-[1000px] justify-between md:mt-2">
-          <img class="absolute w-10 h-10 md:w-20 md:h-20 not-md:-translate-y-6 -translate-x-44 not-md:-scale-x-100 not-md:-rotate-65 cursor-pointer md:hover:scale-112 md:-translate-x-140 md:hover:rotate-15 transition-all duration-300" src="assets/icon/Ouija.svg" alt="">
+          <img class="absolute w-10 h-10 md:w-20 md:h-20 not-md:-translate-y-6 -translate-x-44 not-md:-scale-x-100 not-md:-rotate-65 cursor-pointer md:hover:scale-112 md:-translate-x-140 md:hover:rotate-15 transition-all duration-300 md:opacity-0 group-hover:opacity-100  group-hover:delay-300" src="assets/icon/Ouija.svg" alt="peça ouija">
         
-          <img class="absolute w-10 h-10 md:w-20 md:h-20 not-md:-scale-x-100 translate-x-32 not-md:-translate-y-4 md:translate-x-130 md:hover:scale-112 cursor-pointer transition-all duration-300 md:hover:rotate-15" src="assets/icon/Ball.svg" alt="">
+          <img class="absolute w-10 h-10 md:w-20 md:h-20 not-md:-scale-x-100 translate-x-32 not-md:-translate-y-4 md:translate-x-130 md:hover:scale-112 cursor-pointer transition-all duration-300 md:hover:rotate-15 md:opacity-0 group-hover:opacity-100 group-hover:delay-500" src="assets/icon/Ball.svg" alt="bola de cristal">
         </div> 
 
       </div> 
       <!--  -->
     </header> 
-
+   
     <main>
+      
+      <section class="group flex flex-col w-full h-auto md:bg-[url('assets/Section01.png')] bg-[url('assets/Section01_mobile.png')] bg-no-repeat bg-shape-background items-center justify-center bg-cover md:bg-center bg-top ">
+        <div class="w-full h-5 bg-pink-low blur-xs"></div>
+        <div class="flex items-center justify-center pt-10">
+          <img class="not-md:w-12 not-md:h-12" src="assets/icon/star.svg" alt="estrela">
+          <h2 class="md:text-title-sm text-[24px] font-bold text-title">Conheça o kit mensal</h2>
+          <img class="not-md:w-12 not-md:h-12" src="assets/icon/star.svg" alt="estrela">
+        </div>  
 
+        <div class="flex flex-col md:bg-[url('assets/book.png')] md:w-[467px] md:h-[617px] bg-[url('assets/Component_01.png')] bg-cover bg-center bg-no-repeat w-full h-screen items-center justify-center md:mt-20 -mt-40">
+          
+        </div>
+      </section>
     </main>
 
 </body>

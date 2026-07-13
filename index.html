@@ -83,19 +83,38 @@
       <h1 class="relative z-10 md:text-title-lg text-[28px] font-bold text-title text-center mb-2.5 ">Desperte a sua <br class="md:hidden"> imaginação <br class="hidden md:inline"> e explore novos mundos</h1>
       <p class="relative z-10 text-center text-body md:text-body-lg text-[14px]">Junte-se ao clube de assinatura Encantos Literários e <br class="hidden md:inline"> descubra maravilhas e aventuras a cada página </p>
 
-      <div class="md:mt-150 md:py-20 pt-60 md:pb-60 pb-20 flex items-center flex-col group">
+      <div class="relative md:mt-150 md:py-20 pt-60 md:pb-60 pb-20 flex items-center flex-col group">
 
-        <img class="absolute md:w-20 md:h-20 w-10 h-10 not-md:translate-x-20 cursor-pointer hover:scale-112 -translate-y-10 md:-translate-y-20 transition-all duration-300 hover:rotate-15 opacity-0 group-hover:opacity-100" src="assets/icon/Book.svg" alt="livre de feitiços">
+            <img class="scroll-anim absolute md:w-20 md:h-20 w-10 h-10 not-md:translate-x-20 cursor-pointer hover:scale-112 -translate-y-10 md:-translate-y-20 transition-all duration-300 hover:rotate-15 opacity-0" 
+                src="assets/icon/Book.svg" 
+                alt="livre de feitiços"
+                data-hide="opacity-0"
+                data-show="opacity-100"
+                data-repeat="true">
+                
+            <h2 class="relative md:text-title-sm text-title-xs font-medium text-title text-center">
+                Receba todo mês um <span class="text-blue-light font-bold">livro surpresa</span> do seu tema favorito, acompanhado de <br> 
+                <span class="text-blue-light font-bold">brindes exclusivos</span> que tornarão a sua experiência literária <span class="text-blue-light font-bold">encantadora.</span>
+            </h2>
+
+            <div class="flex md:gap-[1000px] justify-between md:mt-2">
+                
+                <img class="scroll-anim absolute w-10 h-10 md:w-20 md:h-20 not-md:-translate-y-6 -translate-x-44 not-md:-rotate-110 hover:-rotate-100 cursor-pointer hover:scale-112 md:-translate-x-140 md:hover:rotate-15 transition-all duration-300 opacity-0 group-active:opacity-100" 
+                    src="assets/icon/Ouija.svg" 
+                    alt="peça ouija"
+                    data-hide="opacity-0"
+                    data-show="opacity-100"
+                    data-repeat="true">
             
-        <h2 class=" relative md:text-title-sm text-title-xs font-medium text-title text-center">Receba todo mês um  <span class="text-blue-light font-bold">livro surpresa</span> do seu tema favorito, acompanhado de <br> <span class="text-blue-light font-bold">brindes exclusivos</span>  que tornarão a sua experiência literária <span class="text-blue-light font-bold">encantadora.</span></h2>
-
-        <div class="flex md:gap-[1000px] justify-between md:mt-2">
-          <img class="absolute w-10 h-10 md:w-20 md:h-20 not-md:-translate-y-6 -translate-x-44 not-md:-rotate-110 hover:-rotate-100 cursor-pointer hover:scale-112 md:-translate-x-140 md:hover:rotate-15 transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:delay-300 group-active:opacity-100" src="assets/icon/Ouija.svg" alt="peça ouija">
-        
-          <img class="absolute w-10 h-10 md:w-20 md:h-20 not-md:-scale-x-100 translate-x-32 not-md:-translate-y-4 md:translate-x-130 md:hover:scale-112 cursor-pointer transition-all duration-300 hover:rotate-15 opacity-0 group-hover:opacity-100 group-hover:delay-500" src="assets/icon/Ball.svg" alt="bola de cristal">
-        </div> 
-
-      </div> 
+                <img class="scroll-anim absolute w-10 h-10 md:w-20 md:h-20 not-md:-scale-x-100 translate-x-32 not-md:-translate-y-4 md:translate-x-130 md:hover:scale-112 cursor-pointer transition-all duration-300 hover:rotate-15 opacity-0 delay-300" 
+                    src="assets/icon/Ball.svg" 
+                    alt="bola de cristal"
+                    data-hide="opacity-0"
+                    data-show="opacity-100"
+                    data-repeat="true">
+                    
+            </div> 
+        </div>
       <!--  -->
     </header> 
    
@@ -105,167 +124,178 @@
 
         <div>
 
-          <div class="flex items-center justify-center pt-20">
-            <img class="not-md:w-12 not-md:h-12" src="assets/icon/star.svg" alt="estrela">
-            <h2 class="md:text-title-sm text-[24px] font-bold text-title">Conheça o kit mensal</h2>
-            <img class="not-md:w-12 not-md:h-12" src="assets/icon/star.svg" alt="estrela">
-          </div> 
+            <div class="flex items-center justify-center pt-20">
+                <img class="not-md:w-12 not-md:h-12" src="assets/icon/star.svg" alt="estrela">
+                <h2 class="md:text-title-sm text-[24px] font-bold text-title">Conheça o kit mensal</h2>
+                <img class="not-md:w-12 not-md:h-12" src="assets/icon/star.svg" alt="estrela">
+            </div> 
 
-            <div class="flex justify-center items-center group transition-all delay-500">
+            <div class="flex justify-center items-center relative">
 
+                <img class="scroll-anim absolute transition-all duration-700 ease-out not-md:w-22 not-md:h-8" 
+                    src="assets/icon/Group 2.svg" alt="Livro em capa dura"
+                    data-hide="opacity-0 translate-y-0 translate-x-0"
+                    data-show="opacity-100 md:-translate-y-80 md:-translate-x-80 -translate-y-30 -translate-x-28"
+                    data-repeat="true">
 
-              <img class="absolute md:group-hover:-translate-y-80 md:group-hover:-translate-x-80 group-hover:-translate-y-30 group-hover:-translate-x-28 transition-all delay-400 not-md:w-22 not-md:h-8 
+                <img class="scroll-anim absolute transition-all duration-700 ease-out not-md:w-20 not-md:h-16" 
+                    src="assets/icon/Group 3.svg" alt="Broche exclusivo"
+                    data-hide="opacity-0 translate-y-0 translate-x-0"
+                    data-show="opacity-100 md:translate-y-20 md:-translate-x-90 translate-y-7 -translate-x-31"
+                    data-repeat="true">
 
-              group-active:-translate-y-30 group-active:-translate-x-28" src="assets/icon/Group 2.svg" alt="Livro em capa dura">
+                <img class="scroll-anim absolute transition-all duration-700 ease-out not-md:w-28 not-md:h-17" 
+                    src="assets/icon/Group 4.svg" alt="Marca páginas temático"
+                    data-hide="opacity-0 translate-y-0 translate-x-0"
+                    data-show="opacity-100 md:translate-y-75 md:translate-x-75 translate-y-25 translate-x-25"
+                    data-repeat="true">
 
-              <img  class="absolute md:group-hover:translate-y-20 md:group-hover:-translate-x-90 group-hover:translate-y-7 group-hover:-translate-x-31 transition-all delay-400 not-md:w-20 not-md:h-16
-              
-              group-active:-translate-x-31 group-active:translate-y-7
-              " src="assets/icon/Group 3.svg" alt="Broche exclusivo">
+                <img class="scroll-anim md:w-52 md:h-60 w-18 h-21 absolute transition-all duration-700 ease-out delay-100" 
+                    src="assets/pin.png" alt="broche"
+                    data-hide="opacity-0 translate-x-0 rotate-0 translate-y-0"
+                    data-show="opacity-100 md:-translate-x-60 md:-rotate-20 md:translate-y-60 -translate-x-20 -rotate-20 translate-y-20"
+                    data-repeat="true">
+                
+                <img class="scroll-anim md:w-43 md:h-[33rem] w-14 h-45 absolute z-10 transition-all duration-700 ease-out delay-200" 
+                    src="assets/bookmark-yellow.png" alt="marca páginas amarelo"
+                    data-hide="opacity-0 translate-x-0 translate-y-0 rotate-0"
+                    data-show="opacity-100 md:translate-x-63 md:-translate-y-25 md:rotate-12 translate-x-23 -translate-y-15 rotate-12"
+                    data-repeat="true">
+                
+                <img class="scroll-anim md:w-43 md:h-[33rem] w-14 h-45 absolute transition-all duration-700 ease-out delay-300" 
+                    src="assets/bookmark-purple.png" alt="marca páginas roxo"
+                    data-hide="opacity-0 translate-x-0 rotate-0"
+                    data-show="opacity-100 md:translate-x-88 md:rotate-20 translate-x-30 rotate-20"
+                    data-repeat="true">
 
-              <img  class="absolute md:group-hover:translate-y-75 md:group-hover:translate-x-75 group-hover:translate-y-25 group-hover:translate-x-25 transition-all delay-400 not-md:w-28 not-md:h-17
-              
-              group-active:translate-y-25 group-active:translate-x-25
-              " src="assets/icon/Group 4.svg" alt="Marca páginas temático">
-
-              <img class="md:w-52 md:h-60 w-18 h-21 absolute md:group-hover:-translate-x-60 md:group-hover:-rotate-20 md:group-hover:translate-y-60 group-hover:-translate-x-20 group-hover:-rotate-20 group-hover:translate-y-20 transition-all delay-400
-              
-              group-active:translate-y-20 group-active:-rotate-20 group-active:-translate-x-20 
-              " src="assets/pin.png" alt="broche">
-              
-              <img class="md:w-43 md:h-[33rem] w-14 h-45 absolute md:group-hover:translate-x-63 md:group-hover:-translate-y-25 md:group-hover:rotate-12 group-hover:translate-x-23 group-hover:-translate-y-15 group-hover:rotate-12 z-10 transition-all delay-400" src="assets/bookmark-yellow.png" alt="marca páginas amarelo">
-              
-              <img class="md:w-43 md:h-[33rem] w-14 h-45 absolute md:group-hover:translate-x-88 md:group-hover:rotate-20 group-hover:translate-x-30 group-hover:rotate-20 transition-all delay-400" src="assets/bookmark-purple.png" alt="marca páginas roxo">
-
-              <img class="md:w-[28rem] md:h-[36rem] w-40 h-52 relative md:my-60 my-40 z-50 transition-all delay-400" src="assets/book.png" alt="Livro_capa_dura">
-              
+                <img class="md:w-[28rem] md:h-[36rem] w-40 h-52 relative md:my-60 my-40 z-50" 
+                    src="assets/book.png" alt="Livro_capa_dura">
+                
             </div>
-
         </div>
 
       </section>
 
-      <section class="bg-shape-background group/1">
-        <div class="pb-20">
-          <h2 class="text-center text-body text-2xl font-bold md:pt-8 ">Assinatura <br> Encantos Literários</h2>
+      <section class="bg-shape-background">
+            <div class="pb-20">
+              <h2 class="text-center text-body text-2xl font-bold md:pt-8 ">Assinatura <br> Encantos Literários</h2>
 
-          <div class="snap-x flex items-center justify-start p-13 gap-4 overflow-x-auto scrollbar-none md:justify-center">
+              <div class="snap-x flex items-center justify-start p-13 gap-4 overflow-x-auto scrollbar-none md:justify-center relative">
 
-            <div class="md:absolute md:group-hover/1:-translate-x-80 md:group-hover/1:-rotate-15 md:pt-40 hover:z-20 transition-all delay-300 hover:-translate-y-10">
-              <div class="hidden md:block">
-                <img class="absolute -translate-8" src="assets/icon/stars_group.svg" alt="">
-              </div>
-
-              <div class="flex flex-col w-72 snap-center bg-shape-base outline outline-shape-stroke p-7 justify-between rounded-3xl shrink-0">
-                <h3 class="text-blue-light font-bold text-base mb-6">Mensal</h3>
-                <h1 class="text-title-md text-title font-bold mb-2">R$ 59,90<span class="text-title-xs">/mês</span></h1>
-                <p class="text-sm font-normal text-label mb-21">R$ 718,80 por ano</p>
-                
-                <div class="">
-                  <div class="flex items-center m-0 gap-1 ">
-                    <img class="" src="assets/icon/Star-Blue.svg" alt="star">  
-                    <p class="text-body text-xs">Kit mensal com livro temático</p>
-                  </div> 
-
-                  <div class="flex items-center m-0 gap-2">
-                    <img src="assets/icon/Star-Blue.svg" alt="star">
-                    <p class="text-body text-xs">Broche e marca páginas exclusivo</p>
-                  </div>
+                <div class="scroll-anim md:absolute md:pt-40 hover:z-20 transition-all duration-700 ease-out hover:-translate-y-10"
+                    data-hide="md:translate-x-0 md:rotate-0"
+                    data-show="md:-translate-x-80 md:-rotate-15"
+                    data-repeat="false">
                   
-                  <div class="flex items-center m-0 gap-2">
-                    <img src="assets/icon/Star-Blue.svg" alt="star">
-                    <p class="text-body text-xs">Acesso à comunidade literária</p>
+                  <div class="hidden md:block">
+                    <img class="absolute -translate-8" src="assets/icon/stars_group.svg" alt="">
                   </div>
-                </div>  
 
-                <button class="px-5 py-2 bg-blue-dark mt-6 rounded-lg text-title font-bold cursor-pointer  group relative duration-300 ease-out overflow-hidden">
-                  
-                    <span class="relative z-10">Assinar mensal</span>
+                  <div class="flex flex-col w-72 snap-center bg-shape-base outline outline-shape-stroke p-7 justify-between rounded-3xl shrink-0">
+                    <h3 class="text-blue-light font-bold text-base mb-6">Mensal</h3>
+                    <h1 class="text-title-md text-title font-bold mb-2">R$ 59,90<span class="text-title-xs">/mês</span></h1>
+                    <p class="text-sm font-normal text-label mb-21">R$ 718,80 por ano</p>
+                    
+                    <div>
+                      <div class="flex items-center m-0 gap-1 ">
+                        <img src="assets/icon/Star-Blue.svg" alt="star">  
+                        <p class="text-body text-xs">Kit mensal com livro temático</p>
+                      </div> 
+                      <div class="flex items-center m-0 gap-2">
+                        <img src="assets/icon/Star-Blue.svg" alt="star">
+                        <p class="text-body text-xs">Broche e marca páginas exclusivo</p>
+                      </div>
+                      <div class="flex items-center m-0 gap-2">
+                        <img src="assets/icon/Star-Blue.svg" alt="star">
+                        <p class="text-body text-xs">Acesso à comunidade literária</p>
+                      </div>
+                    </div>  
 
-                    <span class="absolute inset-0 left-1/2 top-1/2 h-0 w-0 -translate-x-1/2 -translate-y-1/2 transition-all duration-500 ease-out group-hover:h-56 group-hover:w-56 group-hover:opacity-100 rounded-full bg-white/20 opacity-0"></span>
-                  </button>
-              </div>
-            </div>
-
-            <div class="md:relative md:group-hover/1:-translate-y-15 md:pt-40 z-10 transition-all delay-300 hover:z-20 hover:-translate-y-30">
-              <div class="hidden md:block">
-                <img class="absolute -translate-y-12.75 translate-x-5" src="assets/icon/bunny.svg" alt="">
-              </div>
-              <div class="flex flex-col w-72 snap-center bg-shape-base outline outline-shape-stroke p-7 justify-between rounded-3xl shrink-0">
-                <div class="flex justify-between items-center">
-                  <h3 class="text-blue-light font-bold text-base mb-6">Mensal</h3>
-                  <h4 class="py-2 px-5 rounded-2xl bg-shape-stroke text-body font-bold flex items-center -translate-y-2 text-xs text-center">POPULAR</h4>
+                    <button class="px-5 py-2 bg-blue-dark mt-6 rounded-lg text-title font-bold cursor-pointer group relative duration-300 ease-out overflow-hidden">
+                      <span class="relative z-10">Assinar mensal</span>
+                      <span class="absolute inset-0 left-1/2 top-1/2 h-0 w-0 -translate-x-1/2 -translate-y-1/2 transition-all duration-500 ease-out group-hover:h-56 group-hover:w-56 group-hover:opacity-100 rounded-full bg-white/20 opacity-0"></span>
+                    </button>
+                  </div>
                 </div>
-                <h1 class="text-title-md text-title font-bold mb-2">R$ 59,90<span class="text-title-xs">/mês</span></h1>
-                <p class="text-sm font-normal text-label mb-21">R$ 718,80 por ano</p>
-                
-                <div class="">
-                  <div class="flex items-center m-0 gap-1 ">
-                    <img class="" src="assets/icon/Star-Blue.svg" alt="star">  
-                    <p class="text-body text-xs">Kit mensal com livro temático</p>
-                  </div> 
 
-                  <div class="flex items-center m-0 gap-2">
-                    <img src="assets/icon/Star-Blue.svg" alt="star">
-                    <p class="text-body text-xs">Broche e marca páginas exclusivo</p>
+                <div class="scroll-anim md:relative md:pt-40 z-10 transition-all duration-700 ease-out hover:z-20 hover:-translate-y-30"
+                    data-hide="md:translate-y-0"
+                    data-show="md:-translate-y-15"
+                    data-repeat="false">
+                  
+                  <div class="hidden md:block">
+                    <img class="absolute -translate-y-12.75 translate-x-5" src="assets/icon/bunny.svg" alt="">
                   </div>
                   
-                  <div class="flex items-center m-0 gap-2">
-                    <img src="assets/icon/Star-Blue.svg" alt="star">
-                    <p class="text-body text-xs">Acesso à comunidade literária</p>
+                  <div class="flex flex-col w-72 snap-center bg-shape-base outline outline-shape-stroke p-7 justify-between rounded-3xl shrink-0">
+                    <div class="flex justify-between items-center">
+                      <h3 class="text-blue-light font-bold text-base mb-6">Mensal</h3>
+                      <h4 class="py-2 px-5 rounded-2xl bg-shape-stroke text-body font-bold flex items-center -translate-y-2 text-xs text-center">POPULAR</h4>
+                    </div>
+                    <h1 class="text-title-md text-title font-bold mb-2">R$ 59,90<span class="text-title-xs">/mês</span></h1>
+                    <p class="text-sm font-normal text-label mb-21">R$ 718,80 por ano</p>
+                    
+                    <div>
+                      <div class="flex items-center m-0 gap-1 ">
+                        <img src="assets/icon/Star-Blue.svg" alt="star">  
+                        <p class="text-body text-xs">Kit mensal com livro temático</p>
+                      </div> 
+                      <div class="flex items-center m-0 gap-2">
+                        <img src="assets/icon/Star-Blue.svg" alt="star">
+                        <p class="text-body text-xs">Broche e marca páginas exclusivo</p>
+                      </div>
+                      <div class="flex items-center m-0 gap-2">
+                        <img src="assets/icon/Star-Blue.svg" alt="star">
+                        <p class="text-body text-xs">Acesso à comunidade literária</p>
+                      </div>
+                    </div>  
+
+                    <button class="px-5 py-2 bg-blue-dark mt-6 rounded-lg text-title font-bold cursor-pointer group relative duration-300 ease-out overflow-hidden">
+                      <span class="relative z-10">Assinar mensal</span>
+                      <span class="absolute inset-0 left-1/2 top-1/2 h-0 w-0 -translate-x-1/2 -translate-y-1/2 transition-all duration-500 ease-out group-hover:h-56 group-hover:w-56 group-hover:opacity-100 rounded-full bg-white/20 opacity-0"></span>
+                    </button>
                   </div>
-                </div>  
+                </div>
 
-                <button class="px-5 py-2 bg-blue-dark mt-6 rounded-lg text-title font-bold cursor-pointer group relative duration-300 ease-out overflow-hidden">
+                <div class="scroll-anim md:absolute md:pt-40 hover:z-20 transition-all duration-700 ease-out hover:-translate-y-10"
+                    data-hide="md:translate-x-0 md:rotate-0"
+                    data-show="md:translate-x-80 md:rotate-15"
+                    data-repeat="false">
                   
-                    <span class="relative z-10">Assinar mensal</span>
+                  <div class="flex flex-col w-72 snap-center bg-shape-base outline outline-shape-stroke p-7 justify-between rounded-3xl shrink-0">
+                    <h3 class="text-blue-light font-bold text-base mb-6">Anual</h3>
+                    <h1 class="text-title-md text-title font-bold mb-2">R$ 59,90<span class="text-title-xs">/mês</span></h1>
+                    <p class="text-sm font-normal text-label mb-21">R$ 718,80 por ano</p>
+                    
+                    <div>
+                      <div class="flex items-center m-0 gap-1 ">
+                        <img src="assets/icon/Star-Blue.svg" alt="star">  
+                        <p class="text-body text-xs">Kit mensal com livro temático</p>
+                      </div> 
+                      <div class="flex items-center m-0 gap-2">
+                        <img src="assets/icon/Star-Blue.svg" alt="star">
+                        <p class="text-body text-xs">Broche e marca páginas exclusivo</p>
+                      </div>
+                      <div class="flex items-center m-0 gap-2">
+                        <img src="assets/icon/Star-Blue.svg" alt="star">
+                        <p class="text-body text-xs">Acesso à comunidade literária</p>
+                      </div>
+                    </div>  
 
-                    <span class="absolute inset-0 left-1/2 top-1/2 h-0 w-0 -translate-x-1/2 -translate-y-1/2 transition-all duration-500 ease-out group-hover:h-56 group-hover:w-56 group-hover:opacity-100 rounded-full bg-white/20 opacity-0"></span>
-                </button>
+                    <button class="px-5 py-2 bg-blue-dark mt-6 rounded-lg text-title font-bold cursor-pointer group relative duration-300 ease-out overflow-hidden">
+                      <span class="relative z-10">Assinar anual</span>
+                      <span class="absolute inset-0 left-1/2 top-1/2 h-0 w-0 -translate-x-1/2 -translate-y-1/2 transition-all duration-500 ease-out group-hover:h-56 group-hover:w-56 group-hover:opacity-100 rounded-full bg-white/20 opacity-0"></span>
+                    </button>
+                  </div>
+                  
+                  <div class="hidden md:block">
+                    <img class="absolute translate-x-75 -translate-y-5 rotate-50" src="assets/icon/stars_group.svg" alt="">
+                  </div>
+                </div>
+
               </div>
             </div>
-
-            <div class="md:absolute md:group-hover/1:translate-x-80 md:pt-40 md:group-hover/1:rotate-15 hover:z-20 transition-all delay-300 hover:-translate-y-10">
-              <div class="flex flex-col w-72 snap-center bg-shape-base outline outline-shape-stroke p-7 justify-between rounded-3xl shrink-0">
-                <h3 class="text-blue-light font-bold text-base mb-6">Mensal</h3>
-                <h1 class="text-title-md text-title font-bold mb-2">R$ 59,90<span class="text-title-xs">/mês</span></h1>
-                <p class="text-sm font-normal text-label mb-21">R$ 718,80 por ano</p>
-                
-                <div class="">
-                  <div class="flex items-center m-0 gap-1 ">
-                    <img class="" src="assets/icon/Star-Blue.svg" alt="star">  
-                    <p class="text-body text-xs">Kit mensal com livro temático</p>
-                  </div> 
-
-                  <div class="flex items-center m-0 gap-2">
-                    <img src="assets/icon/Star-Blue.svg" alt="star">
-                    <p class="text-body text-xs">Broche e marca páginas exclusivo</p>
-                  </div>
-                  
-                  <div class="flex items-center m-0 gap-2">
-                    <img src="assets/icon/Star-Blue.svg" alt="star">
-                    <p class="text-body text-xs">Acesso à comunidade literária</p>
-                  </div>
-                </div>  
-
-                <button class="px-5 py-2 bg-blue-dark mt-6 rounded-lg text-title font-bold cursor-pointer  group relative duration-300 ease-out overflow-hidden">
-                  
-                    <span class="relative z-10">Assinar mensal</span>
-
-                    <span class="absolute inset-0 left-1/2 top-1/2 h-0 w-0 -translate-x-1/2 -translate-y-1/2 transition-all duration-500 ease-out group-hover:h-56 group-hover:w-56 group-hover:opacity-100 rounded-full bg-white/20 opacity-0"></span>
-                </button>
-              </div>
-              
-              <div class="hidden md:block">
-                <img class="absolute translate-x-75 -translate-y-5 rotate-50" src="assets/icon/stars_group.svg" alt="">
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-      </section>
+        </section>
 
       <footer class="w-full h-auto bg-[url('assets/icon/full-footer.svg')] bg-cover bg-center bg-no-repeat bg-shape-background py-20 px-5 flex flex-col items-center justify-center">
 
@@ -365,6 +395,47 @@
 
       </footer>
     </main>
+
+
+
+      <script>
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.3 
+        };
+        
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                const el = entry.target;
+                
+                
+                const hideClasses = el.dataset.hide.split(' ').filter(Boolean);
+                const showClasses = el.dataset.show.split(' ').filter(Boolean);
+                const repeat = el.dataset.repeat === 'true';
+
+                if (entry.isIntersecting) {
+                    
+                    el.classList.remove(...hideClasses);
+                    el.classList.add(...showClasses);
+
+                    if (!repeat) observer.unobserve(el);
+                } else {
+                    
+                    if (repeat) {
+                        el.classList.remove(...showClasses);
+                        el.classList.add(...hideClasses);
+                    }
+                }
+            });
+        }, observerOptions);
+
+        // Ativa o observador para todos os elementos que têm a classe .scroll-anim
+        setTimeout(() => {
+            const animatedElements = document.querySelectorAll('.scroll-anim');
+            animatedElements.forEach(el => observer.observe(el));
+        }, 100);
+      </script>
 
 </body>
 </html>
